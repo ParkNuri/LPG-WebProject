@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>Insert title here</title>
+	<style type="text/css">
+		table,th,td{border: 1px solid; border-collapse: collapse}
+		p{
+		padding: 0px;
+		font-size: 7pt;
+		color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>팀 정보 수정</h1>
+	<form action="" method="post">
+		<table>
+			<tr>
+				<td>팀</td>
+				<td><input type="text"  placeholder="팀명을 입력해주세요"></td>
+			</tr>
+			<tr>
+				<td>팀 지역</td>
+				<td>
+					<select>
+						<option>강서구</option>
+						<option>강동구</option>
+						<option>강남구</option>
+						<option>성북구</option>
+						<option>중구</option>
+						<option>은평구</option>
+						<option>금천구</option>
+						<option>광친구</option>
+						<option>서대문구</option>
+						<option>중랑구</option>
+						<option>강북구</option>
+						<option>관악구</option>
+						<option>구로구</option>
+						<option>영등포구</option>
+						<option>마포구</option>
+						<option>종로구</option>
+						<option>도봉구</option>
+						<option>용산구</option>
+						<option>동작구</option>
+						<option>서초구</option>
+						<option>송파구</option>
+						<option>노원구</option>
+						<option>성동구</option>
+						<option>양천구</option>
+						<option>동대문구</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>연령 제한</td>
+				<td>
+					<select>
+						<option>10대</option>
+						<option>20대</option>
+						<option>30대</option>
+						<option>40대</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>소속 유형</td>
+				<td>
+					<select>
+						<option>남성</option>
+						<option>혼성</option>
+						<option>여성</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>주 경기 유형</td>
+				<td>
+					<select>
+						<option>축구</option>
+						<option>풋살</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>팀 실력</td>
+				<td>
+					<select>
+						<option>상</option>
+						<option>중</option>
+						<option>하</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>활동 구장</td>
+				<td>
+					<p>※ 주로 경기하는 구장명을 넣어주세요.</p>
+					<select>
+						<option>축구장</option>
+						<option>직접 입력하기</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>유니폼 설명</td>
+				<td><input type="text" size="50" placeholder="유니폼 정보를 입력해주세요"></td>
+			</tr>
+			<tr>
+				<td>팀 소개글</td>
+				<td><input type="text" size="50" placeholder="팀 소개글을 입력해주세요"></td>
+			</tr>
+			<tr>
+				<td>팀 매너</td>
+				<td><input type="text"  size="50" placeholder="팀에서 요구하는 매너사항들을 입력해주세요"></td>
+			</tr>
+			<tr>
+				<td>팀 앰블럼</td>
+				<td>
+					<p>※ 정사각형 형태로 넣어주셔야 가장 이상적인 모양으로 출력됩니다.</p>
+					<input type="file" value="파일선택">
+				</td>
+			</tr>
+			<tr>
+				<td>팀원 정보 공개여부</td>
+				<td>
+					<input type="radio" name="openinfo" value="공개">공개
+					<input type="radio" name="openinfo" value="비공개">비공개
+				</td>
+			</tr>
+		</table>
+		<input type="submit" value="팀 정보 수정">
+	</form>
+</body>
+</html>
