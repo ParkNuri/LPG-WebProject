@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+	<title>Insert title here</title>
+	<style type="text/css">
+		.line{border:1px solid white;}
+	
+	</style>
+	<style>
+		#outer{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: justify;
+		}
+		#header{
+			clear:both;
+			
+			height: 100px;
+			background-color: red;
+		}		
+		#con{
+			height:500px;
+			width: 60%;
+			float: left;
+			
+		}
+		#sb1{
+			height:500px;
+			width:20%;
+			float:left;
+			background-color: #808080;
+		}
+		#sb2{
+			height:500px;
+			width:20%;
+			float: left;
+			background-color: #808080;
+		}
+		#footer{
+			clear: both;
+			background-color: #800080;
+		}
+		#table{
+		margin-bottom: auto;
+		margin-top: 20px;		
+		margin-left: auto;
+			margin-right: auto;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="outer">
+		<div id="header">
+			
+			<h1>Header</h1>
+		</div>
+		
+		<div id="sb1">
+			<h2>Sidebar1</h2>
+			<ul>
+				
+				<input type="button" value="매칭방 목록 조회">
+				<br/>				
+				<input type="button" value="매칭 생성">
+				
+				
+			</ul>
+		</div>
+		
+		<div id="con">
+			<table id="table" border="1" width="90%", height="180px">					
+				</table>			
+			<br/>
+				
+			<table  id="table" border="1" width="90%" height="180px">
+				<tr>
+					<td class="line">10.1패치노트 </td>
+					<td class="line">&nbsp;&nbsp; &nbsp;&nbsp;</td>		
+					<td class="line">&nbsp;&nbsp; &nbsp;&nbsp;</td>			
+					<td class="line"><a class="line" href="">더 알아보기</a></td>
+				</tr>
+				<tr><td class="line">
+				
+				</td></tr>
+				<tr><td class="line">
+				
+				</td></tr>
+				<tr><td class="line">
+				
+				</td></tr>
+			</table>
+		</div>
+		
+		<div id="sb2">
+			<h2>Sidebar2</h2>
+			<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)">
+			친구목록보기
+			</a><div style="DISPLAY: none">
+			친구목록 테이블
+			</div>
+		</div>
+		
+		<div id="footer">
+			<h2>Footer</h2>
+		</div>
+	
+</div>
+
+</body>
+</html>
