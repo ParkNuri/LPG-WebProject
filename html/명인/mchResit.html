@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>매치 등록</h3>
+	<div>
+		<form>
+			<div>
+				매치제목:<input type="text" placeholder="매치제목" >
+				<input type="radio" name="mch_urgent" value="긴급">긴급
+				<input type="radio" name="mch_urgent" value="일반">일반				
+			</div>
+			<div>
+				매치타입
+				<input type="radio" name="mch_type" value="">팀매치
+				<input type="radio" name="mch_type" value="">개인매치
+			</div>
+			<div>
+				경기일시<input type="date">
+				<select>
+					<option value="0">0시</option>
+					<option value="1">1시</option>
+					<option value="2">2시</option>
+					<option value="3">3시</option>
+					<option value="4">4시</option>
+					<option value="5">5시</option>
+					<option value="6">6시</option>
+					<option value="7">7시</option>
+					<option value="8">8시</option>
+					<option value="9">9시</option>
+					<option value="10">10시</option>
+					<option value="11">11시</option>
+					<option value="12">12시</option>
+					<option value="13">13시</option>
+					<option value="14">14시</option>
+					<option value="15">15시</option>
+					<option value="16">16시</option>
+					<option value="17">17시</option>
+					<option value="18">18시</option>
+					<option value="19">19시</option>
+					<option value="20">20시</option>
+					<option value="21">21시</option>
+					<option value="22">22시</option>
+					<option value="23">23시</option>
+					<option value="24">24시</option>
+				</select>
+				<select>
+					<option value="0">0분</option>
+					<option value="10">10분</option>
+					<option value="20">20분</option>
+					<option value="30">30분</option>
+					<option value="40">40분</option>
+					<option value="50">50분</option>
+				</select>
+			</div>
+			<div>
+				경기타입
+				<select name="mch_play">
+					<option value="8">4vs4 풋살
+					<option value="10">5vs5 풋살
+					<option value="12">6vs6 풋살
+					<option value="14">7vs7 풋살
+					<option value="16">8vs8 풋살
+					<option value="18">9vs9 축구
+					<option value="22">11vs11 축구
+				</select>
+			</div>
+			<div>
+				<!-- 구장예약여부도 표시를 해야할지... -->
+				구장
+				<input type="text" disabled="disabled">
+				<input type="button" value="구장 검색" onclick="">
+				<input type="button" value="예약하기" onclick="">
+			</div>
+			<div>
+				참가비<input type="number">
+			</div>
+			<div>
+				매치성별
+				<input type="radio" name="mch_urgent" value="남성">남성매치
+				<input type="radio" name="mch_urgent" value="여성">여성매치
+				<input type="radio" name="mch_urgent" value="혼성">혼성매치
+			</div>
+			<div>
+				실력
+				<input type="checkbox" name="mch_abil">상
+				<input type="checkbox" name="mch_abil">중 
+				<input type="checkbox" name="mch_abil">하 
+			</div>
+			<div>
+				슈즈
+				<input type="checkbox" name="mch_shoes">풋살화 
+				<input type="checkbox" name="mch_shoes">축구화
+			</div>
+			<div>
+				<div>내용<br/></div>
+				<textarea rows="30" cols="30" name="mch_content"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="등록 신청">
+				<input type="reset" value="등록 취소">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
